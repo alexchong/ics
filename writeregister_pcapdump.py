@@ -52,8 +52,8 @@ def main():
         print("Error converting bytes:", e)
         sys.exit(1)
 
-    # Print the kind of data found
-    print(f"Write Register Reference Numbers: {len(byte_list)}")
+    # Print write register reference numbers
+    print("Reference Numbers:")
     print(byte_list)
 
     # Convert the list of integers into a bytes object.
